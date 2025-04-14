@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import ProjectCard from "@/components/ProjectCard";
@@ -36,10 +35,10 @@ const HomePage = () => {
               Freelance Illustrator & Designer
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button asChild size="lg" className="bg-portfolio-primary hover:bg-blue-600">
+              <Button asChild size="lg" className="bg-portfolio-primary hover:bg-blue-700 text-white">
                 <Link to="/projects">View My Work</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-portfolio-primary">
                 <Link to="/contact">Get In Touch</Link>
               </Button>
             </div>
@@ -79,7 +78,7 @@ const HomePage = () => {
               stunning visuals for brands and publications worldwide. My work focuses on
               blending traditional techniques with digital innovation.
             </p>
-            <Button asChild className="bg-portfolio-primary hover:bg-blue-600">
+            <Button asChild className="bg-portfolio-primary hover:bg-blue-700 text-white">
               <Link to="/about">Learn More About Me</Link>
             </Button>
           </div>
@@ -98,7 +97,7 @@ const HomePage = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="border-white text-white hover:bg-white/30 hover:text-portfolio-primary"
+              className="border-white text-white hover:bg-white hover:text-portfolio-primary"
             >
               <Link to="/contact">Contact Me</Link>
             </Button>
