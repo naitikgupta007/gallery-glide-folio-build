@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				portfolio: {
+					primary: '#3B82F6',
+					secondary: '#F3F4F6',
+					dark: '#1F2937',
+					light: '#F9FAFB',
 				}
 			},
 			borderRadius: {
@@ -84,11 +91,19 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'image-zoom': {
+					'0%': { transform: 'scale(1)' },
+					'100%': { transform: 'scale(1.05)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'image-zoom': 'image-zoom 0.3s ease-out forwards'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
 			}
 		}
 	},
