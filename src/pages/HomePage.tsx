@@ -95,7 +95,7 @@ const HomePage = () => {
               Have a project in mind? I'm currently available for freelance work.
               Let's create something amazing together.
             </p>
-            <Button asChild variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" className="border-white text-white hover:bg-white/20">
               <Link to="/contact">Contact Me</Link>
             </Button>
           </div>
@@ -106,3 +106,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
